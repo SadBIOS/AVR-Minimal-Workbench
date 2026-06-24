@@ -16,7 +16,7 @@
 sudo apt install build-essential
 ```
 * [AVR 8-Bit Toolchain (Linux)](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers) (this is the exact file name, same for Microsoft Windows<sup>®</sup>)
-* [avrdude_vX.Y_Linux_64bit.tar.gz](https://github.com/avrdudes/avrdude/releases)
+* [avrdude_vX.Y_Linux_64bit.tar.gz](https://github.com/avrdudes/avrdude/releases) (look for the latest build)
 
 > [!NOTE]  
 > * Create the following file (you can use micro, you don't need to prove anything by using vim)
