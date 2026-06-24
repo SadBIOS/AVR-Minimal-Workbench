@@ -1,8 +1,5 @@
 ## Cross Platform AVR MCU Minimal Development Environment
-
----
 #### Setup for Microsoft Windows<sup>®</sup>:
-
 * [MinGW-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/) (download the *x86_64-posix-seh.7z* archive, also this is required for the ***make.exe*** binary)
 * [AVR 8-Bit Toolchain (Windows)](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers) (this is the exact file name)
 * [avrdude-vX.Y-windows-x64.zip](https://github.com/avrdudes/avrdude/releases) (version might change, pick the latest build)
