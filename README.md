@@ -40,4 +40,4 @@ sudo apt install build-essential
 >```
 ---
 > [!IMPORTANT]  
-> * This project has been tested for kernel **6.12.94+deb13** (Debian 13.5 "*Trixie*")
+> This project has been tested for kernel **6.12.94+deb13** (Debian 13.5 "*Trixie*")
