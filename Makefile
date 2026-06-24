@@ -32,7 +32,7 @@ default:	# default compile
 flash:		# upload firmware
 	$(avrdude) -F -V -c usbasp -p $(APN) -B 10 -P usb -U flash:w:$(FILE)_firmware.hex -vvv
 
-read:		# reads firmware from chip and dumps firmware
+read:		# reads firmware from chip and dumps the raw data
 	$(avrdude) -F -V -c usbasp -p $(APN) -P usb -U flash:r:$(FILE)_dump.bin:r -vvv
 	$(avr_objcopy) -v -O ihex -R .eeprom $(FILE)_dump.bin $(FILE)_dump.hex
 	
