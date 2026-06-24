@@ -8,7 +8,7 @@
 > * rename ```mingw64/bin/mingw32-make.exe``` to ***make.exe***
 > * add ```mingw64/bin``` to the OS environment variable
 > * Check the Makefile for instructions.
-> * Additional USB drivers may be required. Use ***Zadig*** if needed.
+> * Additional USB drivers may be required. Use ***[Zadig](https://zadig.akeo.ie/)*** if needed.
 ---
 #### Setup for GNU Linux:
 *  Install the **build-essential** meta package.
